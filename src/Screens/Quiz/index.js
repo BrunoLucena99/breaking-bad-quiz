@@ -1,14 +1,15 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect, useState } from 'react'
-import Widget from '../src/components/Widget'
-import Footer from '../src/components/Footer'
-import GithubCorner from '../src/components/GithubCorner'
-import QuizBackground from '../src/components/QuizBackground'
-import QuizContainer from '../src/components/QuizContainer'
-import QuizLogo from '../src/components/QuizLogo'
-import AlternativesForm from '../src/components/AlternativesForm'
-import db from '../db.json'
-import Button from '../src/components/Button'
+import Widget from '../../components/Widget'
+import Footer from '../../components/Footer'
+import GithubCorner from '../../components/GithubCorner'
+import QuizBackground from '../../components/QuizBackground'
+import QuizContainer from '../../components/QuizContainer'
+import QuizLogo from '../../components/QuizLogo'
+import AlternativesForm from '../../components/AlternativesForm'
+import BackLinkArrow from '../../components/BackLinkArrow'
+// import db from '../../../db.json'
+import Button from '../../components/Button'
 
 function ResultWidget({ results }) {
   return (
@@ -73,7 +74,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
-        {/* <BackLinkArrow href="/" /> */}
+        <BackLinkArrow href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
@@ -157,8 +158,8 @@ const screenStates = {
   QUIZ: 'QUIZ',
 }
 
-export default function QuizPage() {
-  const { questions } = db
+export default function QuizPage({ externalQuestions, externalBg }) {
+  const questions = externalQuestions
   const totalQuestions = questions.length
   const [results, setResults] = useState([])
   const [screenState, setScreenState] = useState(screenStates.LOADING)
@@ -189,7 +190,7 @@ export default function QuizPage() {
   }
 
   return (
-    <QuizBackground backgroundImage={db.bg}>
+    <QuizBackground backgroundImage={externalBg}>
       <QuizContainer>
 
         <QuizLogo />
