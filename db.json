@@ -26,11 +26,72 @@
            "Chicago",
            "Seattle"
         ]
+      },
+      {
+        "image": "https://thumbs.gfycat.com/HighlevelWarmCub-small.gif",
+        "title": "Qual era o nome da namorada desenhista de Jesse Pinkman?",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+           "Jane Margolis",
+           "Andrea Cantillo",
+           "Lydia Quayle",
+           "Marie Schrader"
+        ]
+      },
+      {
+        "image": "https://thumbs.gfycat.com/DemandingRegalDoe-small.gif",
+        "title": "Onde que Jesse Pinkman e Walter White produziram metanfetamina pela primeira vez?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+           "Na casa de Jesse",
+           "Laboratório na lavanderia",
+           "Deserto",
+           "Laboratório da escola que Walter trabalhava"
+        ]
+      },
+      {
+        "image": "https://4.bp.blogspot.com/-z3RDzxDB4EQ/T-7nQH82FdI/AAAAAAAACOs/lfwVP89uApA/s400/money_o_GIFSoup.com.gif",
+        "title": "Qual foi o comércio que Walter White e Skyler escolheram para lavar o dinheiro?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "Lavanderia",
+           "Lava Jato",
+           "Detetizadora",
+           "Escritório de Contabilidade"
+        ]
+      },
+      {
+        "image": "https://64.media.tumblr.com/7fa336479f0472bb398f61fd79ee47f4/tumblr_n6kef3HKIS1totw26o1_400.gifv",
+        "title": "Quais eram os nomes dos amigos de Jesse Pinkman ?",
+        "description": "",
+        "answer": 3,
+        "alternatives": [
+           "Brandon Combo Ortega, Skinny Pete e Christian Badger Mayhew",
+           "Gustavo Fring, Brandon Badger Mayhew, Skinny Pete",
+           "Todd Alquist, Gale Boetticher e Christian Combo Mayhew",
+           "Skinny Pete, Brandon Bagder Mayhew, Christian Combo Ortega"
+        ]
+      },
+      {
+        "image": "https://i.gifer.com/FEMk.gif",
+        "title": "Qual foi o motivo da morte de Walter White ?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+           "Envenenamento por Ricina pelo Jesse Pinkman?",
+           "Complicações do Cancer",
+           "Baleado",
+           "Condenado a pena de morte"
+        ]
       }
     ],
     "external": [
       "https://aluraquiz-css.omariosouto.vercel.app/",
-      "https://aluraquiz-marvel.omariosouto.vercel.app/"
+      "https://aluraquiz-marvel.omariosouto.vercel.app/",
+      "https://mr-robot-quiz-alura.bryanauta.vercel.app/"
     ],
     "theme": {
       "colors": {

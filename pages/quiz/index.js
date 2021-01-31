@@ -9,6 +9,7 @@ import QuizLogo from '../../src/components/QuizLogo'
 import AlternativesForm from '../../src/components/AlternativesForm'
 import db from '../../db.json'
 import Button from '../../src/components/Button'
+import Loading from '../../src/components/Loading'
 
 function ResultWidget({ results }) {
   return (
@@ -48,10 +49,10 @@ function LoadingScreen() {
   return (
     <Widget>
       <Widget.Header>
-        Carregando
+        Carregando...
       </Widget.Header>
       <Widget.Content>
-        [Desafio do Loading]
+        <Loading />
       </Widget.Content>
     </Widget>
   )

@@ -10,6 +10,7 @@ import AlternativesForm from '../../components/AlternativesForm'
 import BackLinkArrow from '../../components/BackLinkArrow'
 // import db from '../../../db.json'
 import Button from '../../components/Button'
+import Loading from '../../components/Loading'
 
 function ResultWidget({ results }) {
   return (
@@ -52,7 +53,7 @@ function LoadingScreen() {
         Carregando
       </Widget.Header>
       <Widget.Content>
-        [Desafio do Loading]
+        <Loading />
       </Widget.Content>
     </Widget>
   )

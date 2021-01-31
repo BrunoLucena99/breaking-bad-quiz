@@ -64,7 +64,7 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 0.5 }}
         >
           <Widget.Content>
-            <h1>Quizes de Galera</h1>
+            <h1>Quizes da Galera</h1>
             <ul>
               {db.external.map((link) => {
                 const [projectName, githubUser] = link
